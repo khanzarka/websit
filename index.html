@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/66d4ca7f1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="/images/logos.webp" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="header-text">
+        <p>Software Developer</p>
+        <h1>Hi, I'm <span>Zarka</span><br>Khan From Canada</h1>
+    </div>  
+    </div>
+    </div>
+    <!-----------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/R.jpg" alt="">
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Software Developer with three years of experience in coding, testing and establishing system improvements. Equally at home with software development for PCs, online environments, and mobile devices.In my current role as a software developer, I’m responsible for maintaining an application that supports our clients by resolving issues they encounter with their data. This application is used by many different departments within the company, including marketing, sales, finance, customer service, and HR. It has grown from a simple database tool into an enterprise-wide platform that supports multiple applications—such as CRM systems—with customizations specific to each department’s needs</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Backened Developer</span><br>Database</li>
+                                <li><span>Web Development</span><br>Web/App Development</li>
+                                <li><span>App Development</span><br>Building Android/ios apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022-Present</span><br>River Tech, Software Developer</li>
+                                <li><span>2020-2022</span><br>Retail Ocean, Frontend Developer</li>
+                                <li><span>2019-2020</span><br>Shaw Inc., ,Net Developer</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Present</span><br>Full Stack Course at SAIT</li>
+                                <li><span>2019</span><br>M-Tech from Integral University</li>
+                                <li><span>2017</span><br>B-Tech from Integral University</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------services----------->
+    <div id="services">
+        <div class="container">
+           <h1 class="sub-title">My Services</h1>
+           <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>UI/UX Design</h2>
+                <p>As a UI designer I seeks to make apps and websites both visually appealing and easy to navigate.Common tasks of a UI designer include: Organizing page layouts Choosing color palettes and fonts Designing interactive elements, such as scrollers, butto</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Website Design</h2>
+                <p>Create wireframes or mockups for web pages and applications and design layouts for mobile, tablet, and desktop devices. Can create branding and identity systems for websites, apps, and other media.Design graphics, icons,logos and design custom WordPress themes</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Can creates and tests applications designed for electronic computing devices. I am typically specialized in a development area such as mobile phone applications.</p>
+                <a href="#">learn more</a>
+            </div>
+           </div>
+        </div>
+    </div>
+    <!--------------portfolio--------->
+    <div id="portfolio">
+        <div class="container">
+             <h1 class="sub-title">My Work</h1>
+             <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Avarange is such a unique marketing channel because of the transparent, two-way potential of interaction. Rather than broadcasting corporate messages, brands have the opportunity to engage consumers on an individual basis as well as generate leads in a very targeted fashion.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Music theory can be empowering, exciting, and one of the biggest tools in your creative arsenal. Whether you already play an instrument or are just learning, Waay teaches you how to bring together notes into melodies, chords, progressions, and even songs. This is applied music theory—stuff you can take straight to your instrument and use.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping app</h3>
+                        <p>AJIO, a fashion and lifestyle brand, is Reliance Retail’s digital commerce initiative and is the ultimate fashion destination for styles that are handpicked, on trend and at prices that are the best you’ll find anywhere.Celebrating fearlessness and uniqueness, Ajio is constantly looking to bring a fresh, current and accessible perspective to personal style.</p>.
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+             </div>
+             <a href="#" class="btn"> See More</a>
+        </div>
+    </div>
+    <!-----------contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>contact@#example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="/images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required> 
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>                  
+        </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Zarka</p>
+        </div>
+    </div>
+     <script src="/javascript/script.js"></script>
+     <script src="/javascript/menu.js"></script>
+
+</body>
+</html>
